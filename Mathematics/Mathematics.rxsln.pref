@@ -1,0 +1,13 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{4F05E473-0EEC-447B-8C7E-A9A67926BAA4}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution Mathematics[Mathematics[]]]&#xD;&#xA;Solution Mathematics\Mathematics\Recording1.rxrec&#xD;&#xA;Solution Mathematics" />
+  <StartupProject value="{4F05E473-0EEC-447B-8C7E-A9A67926BAA4}" />
+</Properties>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="7.0">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="Mathematics"
+      id="17169e51-f532-469f-afd2-4b921e883611"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="Mathematics"
+      id="17169e51-f532-469f-afd2-4b921e883611"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

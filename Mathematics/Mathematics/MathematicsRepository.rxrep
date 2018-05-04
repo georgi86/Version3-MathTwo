@@ -1,0 +1,74 @@
+﻿<repository
+id="0dbaa491-d070-48f5-be2a-e340c547dbc1"
+name="MathematicsRepository"
+rxversion="7.0">
+	<codegen
+	classname="MathematicsRepository"
+	namespace="Mathematics">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="bb702d5b-7f83-4046-b41a-76ccb7de2beb"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="4adb4bb9-9f89-49fe-adf8-806d61028b9e"
+		isrooted="True"
+		name="SnapXUntitled"
+		refpath="/form[@title='Snap-X - [Untitled]']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="e4526397-d53e-4bd4-b99a-0448a7b0f99c"
+			name="TitleBar"
+			refimgid="62e88e68-f2a0-4e9c-9830-bad2423c2525"
+			refpath="/form[@title='Snap-X - [Untitled]']/element[@controlid='94']"
+			searchtimeout="600000ms">
+				/form[@title='Snap-X - [Untitled]']/element[@controlid='94']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="a6cf9ea9-87f7-4d8e-a044-66466c3c75b6"
+			name="ButtonOK"
+			refimgid="ab33ade7-00fc-4925-a692-956630a4ec24"
+			searchtimeout="600000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form//button[@text='&amp;OK']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="1c3ae803-71b0-40e2-a80d-53f3f1a9132e"
+			name="Finish"
+			refimgid="06ef9767-cc5b-45de-97d0-1a86948d6108"
+			searchtimeout="600000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form//button[@text='Finish' and @enabled='True']
+			</item>
+			<basepath>
+				/form[@title='Snap-X - [Untitled]']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGqSURBVDhPjVM9SwNBEF2/EcUuaJLdvd1LqihY
+BBFtRPAfWKkgWNpZqKUpLARLCzEggk0gweQuKURtBCsFwcJGsRLsLAQFBRXju73R3MUoPnjs3bx5
+s7Ozd+wLTlxPukJX/+AGpX4jm0630SNjGcaaHaGvGhgNHa6O8n3JiMv1DLiF2IUj1BvZfRixgdmQ
+q1es7/67OnOEtVCWUpPVR4GxFojXISPR4foFG2TLItFP6Y1REno+ZESbnrEoZZRSfofL7TkkP9QK
+qMtiXA2S/AOFVKrdf4ikurFTsW7nnf1kssMkEA57e7twlGlwFwNfrXA9xPKcd2JAJ2GzXiePwZ6U
+NrrZRtFHrDnHshRJXttqM2gGD6qMNXmat0JfQuzZaNjImIKAQFfjs8jtAZK84pmghs7uSKohlICr
+orAB2p0N6h4xlx6SfaDqRygpbo2TxI7ZWCvOfRPUHZlIk+wDn+hauIh6Qmy5ErWlp9d3UeL2lDEG
+gaqjZrpC3QeT8X6L4qfBGOayQrbGcIWIlWLWiCv1hGFcDaOjxVoRlaPU/8ObBYz+P8LVOYUBxj4B
+q6oLt3Pkl98AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

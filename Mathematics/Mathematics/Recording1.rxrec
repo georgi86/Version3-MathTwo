@@ -1,0 +1,1104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="f56f23c7-7df7-4ef2-8533-a143d10dc95d"
+mode="Global"
+rxversion="7.0">
+	<name>
+		Recording1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="Mathematics">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="47e6d8ea-3a02-48d7-82e8-8d667a5e5475"
+		sx="797"
+		sy="15"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e4526397-d53e-4bd4-b99a-0448a7b0f99c"
+			sourcename="Recorder">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="2"
+				prefcap="unknown"
+				rect="379,0,1541,28"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Afx:01020000:20:00010003:01900011:00000000
+					</attribute>
+					<attribute
+					name="controlid"
+					type="System.Int32">
+						94
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						3146848
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						1764
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						SNAP-X
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						LeftToRightReading
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						Snap-X - [Untitled]
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='Snap-X - [Untitled]']/element[@controlid='94']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="de8403e8-128c-484e-9190-17f713c1922b">
+				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
+xm/74oAmoqH7R/0xm/74o+0f9MZv++KAJqKh+0f9MZv++KPtH/TGb/vigCaioftH/TGb/vij7R/0
+xm/74oAmoqH7R/0xm/74o+0f9MZv++KAJqKh+0f9MZv++KPtH/TGb/vigCaioftH/TGb/vij7R/0
+xm/74oAmoqH7R/0xm/74o+0f9MZv++KAJqKh+0f9MZv++KPtH/TGb/vigCaioftH/TGb/vij7R/0
+xm/74oAmoqH7R/0xm/74o+0f9MZv++KAJqKh+0f9MZv++KPtH/TGb/vigCaioftH/TGb/vij7R/0
+xm/74oAS2tIbXPkqwyAOXLcDOByeOpqeoftH/TGb/vij7R/0xm/74oAmoqH7R/0xm/74o+0f9MZv
+++KAJqKh+0f9MZv++KPtH/TGb/vigCaioftH/TGb/vij7R/0xm/74oAmoqH7R/0xm/74o+0f9MZv
+++KAJqKh+0f9MZv++KPtH/TGb/vigCaioftH/TGb/vij7R/0xm/74oAmoqH7R/0xm/74o+0f9MZv
+++KAJqKh+0f9MZv++KPtH/TGb/vigCaioftH/TGb/vij7R/0xm/74oAmoqH7R/0xm/74o+0f9MZv
+++KAJqKh+0f9MZv++KPtH/TGb/vigCaioftH/TGb/vij7R/0xm/74oAmoqH7R/0xm/74o+0f9MZv
+++KAJqKh+0f9MZv++KPtH/TGb/vigCaioftH/TGb/viigDM/ti2/6CS/+A7Uf2xbf9BJf/Adqwv7
+G1H/AJ9m/Mf40f2NqP8Az7N+Y/xoA3f7Ytv+gkv/AIDtR/bFt/0El/8AAdqwv7G1H/n2b8x/jR/Y
+2o/8+zfmP8aAN3+2Lb/oJL/4DtR/bFt/0El/8B2rC/sbUf8An2b8x/jR/Y2o/wDPs35j/GgDd/ti
+2/6CS/8AgO1H9sW3/QSX/wAB2rC/sbUf+fZvzH+NH9jaj/z7N+Y/xoA3f7Ytv+gkv/gO1H9sW3/Q
+SX/wHasL+xtR/wCfZvzH+NH9jaj/AM+zfmP8aAN3+2Lb/oJL/wCA7Uf2xbf9BJf/AAHasL+xtR/5
+9m/Mf40f2NqP/Ps35j/GgDd/ti2/6CS/+A7Uf2xbf9BJf/Adqwv7G1H/AJ9m/Mf41WubWe0kCXEZ
+RmG4AkHjp/SgDr7e5+0wmWK/QxhtpYxbefxNSeY3/P8Aw/8AfI/xrN8LAG257O5H5JW/mgCl5jf8
+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
+oaPtcH9/9DWXRQHMzU+1wf8APT9DR9rg/v8A6GsuigOZmp9rg/56foaPtcH/AD0/Q1l0UBzM1Ptk
+H/PT9DR9rg/56foay6KA5man2uD/AJ6foaPtcH/PT9DWXRQHMzU+1wf89P0NH2uD/np+hrLooDmZ
+qfbIP+en6Gj7ZB/z0/Q1l0UBzM1PtkH/AD0/Q0fbIP8Anp+hrLooDmZqfbIP+en6Gj7ZB/z0/Q1l
+0UBzM1PtkH/PT9DR9sg/56foay6KA5man2yD/np+ho+2Qf8APT9DWXRQHMzU+2Qf89P0NH2yD/np
++hrLooDmZqfbIP8Anp+ho+2Qf89P0NZdFAczNT7ZB/z0/Q0fbLf/AJ6foay6KA5maf223/56f+Om
+j7bb/wDPT/x01lkZppFAczNb7bb/APPT/wAdNH223/56f+OmsiigOZmv9tt/+en/AI6aPttv/wA9
+P/HTWRRQHMzX+22//PT/AMdNH223/wCen/jprIooDmZr/bbf/np/46aPttv/AM9P/HTWRRQHMzX+
+22//AD0/8dNH223/AOen/jprIooDmZr/AG23/wCen/jpo+22/wDz0/8AHTWRRQHMzX+22/8Az0/8
+dNH223/56f8AjprIooDmZr/bbf8A56f+Omj7bb/89P8Ax01kUUBzM1/ttv8A89P/AB00fbbf/np/
+46ayKKA5ma/223/56f8AjporIooDmZJRRRQSFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFHeigAo
+oooAKKKKACiiigAooooAKKKKACiiigQUUUUDCiikoAWiiigAooooEFFFFAwooooAKKKKACkpaKAE
+IzTSMU+koAZRTitNoAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigCSilpKACilpKACii
+igAooooAKKKWgBKKKKACiiigAooooAKKKKACiiigAooooAQnFAOaCM0oGKACiiigAooooAKKKKAC
+iiigAooooEFFFFAwooooAKKKKACiiigAooooEFFFFAwpCM0tFADCMUlSU0rQA2iiigAooooAKKKK
+ACiiigAooooAKKKKACiiigCSiiigAopaSgAooooAWkoooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooEFFFFABRRRQMKKKKACiiigAoooo
+AKKKSgAxTSMU6igBlFKRSUAFFFFABRRRQAUUUUAFFFFABRRRQBJS0UUAJRRRQAUUUtACUUUUAFFF
+FABRRQRkUAIDmlpg4OKfQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUCC
+iiigYUUUUCCiiigAooooGFFFFAgooooGFFFFABSUtFABRRRQAU0ilooAZRTiM02gAooooAKKKKAC
+iiigAooooAloopKAFpKWkoAWikpaAEooooAKWkooAWkoooACM0UUUAFLSUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAgooooGFFFFABRRRQIKKKKBhRRRQAUUUUAFFFFAC
+UtFFABSUtJQAtNIzTqKAIyMUU8jNNIxQAlFFFABRRRQAUUUUAS0UUlAC0UUlAC0lLSUAFFFFABS0
+lFABS0lLQAUlLSUAFLSUUAFFFFABRRRQAUUUUAFFFFACHORiloooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigQUUUUDCiiigAooooAKKKKBBRRRQMKKKSgBaKKKAENBGaWkoAaRikp5Gaa
+RigBKKKKACiiigCWiiigAooooAKKKKAEopaSgBaKKKACiiigAopKWgBKKWkoAAc0UUUALRSUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUCCiikNAwpaSloAK
+KSloAKKKKACiiigAooooAKKKSgBaQjNLRQBHRTyM0ygAooooAlooooAKKKSgApaSigAooooAWiko
+oAKKKWgBKKWkoAKKKKAFpKKKAFopKKACiiigAooooAKKKKACiijPOKACiiigAoooNABRRRQAUUUU
+CCiiigYUUUUAFFFFABRRRQAUUUUCCiiigYUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAlIRTqSgBlF
+OIooAfRRRQAUlLSUALRSUUAFLSUUAFLSUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUlFAC0UlLQAUUUUAFFFFABRRSUAFLRRQAUUUUAFFF
+FABRRRQAUUUUAFFFFABRRRQAlFFFAH//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="{LMenu}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="40ae8354-c04a-480c-96db-78d5a979df6c">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="f"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="35df6028-6b58-4ef7-aaaa-713fc8d738b9">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="o"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="f95116f8-a9a3-4744-a815-8cb34b451344">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
+		<explicitdelayitem
+		duration="3000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<keysequenceitem
+		KeySequence="D:\Joro\GIT_Automations\VERSION 3\AutomationMathTwo\Routine\MathActions.mxy"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="a8ae63ff-6eda-4756-855f-e059f6185439">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="{Return}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="e826306f-90d6-49ed-a8f2-2b38207a7791">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="a9c36b99-6db0-45c5-b322-f57a078dd950"
+		sx="1149"
+		sy="14"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e4526397-d53e-4bd4-b99a-0448a7b0f99c"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="2"
+				prefcap="unknown"
+				rect="379,0,1541,28"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Afx:01020000:20:00010003:01900011:00000000
+					</attribute>
+					<attribute
+					name="controlid"
+					type="System.Int32">
+						94
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						3146848
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						1764
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						SNAP-X
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						LeftToRightReading
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						Snap-X - [MathActions.mxy]
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='Snap-X - [Untitled]']/element[@controlid='94']
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="{LMenu}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="40ae8354-c04a-480c-96db-78d5a979df6c">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="f"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="35df6028-6b58-4ef7-aaaa-713fc8d738b9">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="r"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="f95116f8-a9a3-4744-a815-8cb34b451344">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="{Return}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="e826306f-90d6-49ed-a8f2-2b38207a7791">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="False"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="efe1dbcd-5270-4ee6-95df-2d8f14c9436b"
+		sx="1561"
+		sy="834"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a6cf9ea9-87f7-4d8e-a044-66466c3c75b6"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="12"
+				prefcap="button"
+				rect="1509,823,105,23"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						&amp;OK
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="controlid"
+					type="System.Int32">
+						1148
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						461002
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						1764
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						SNAP-X
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						RightScrollBar, Left, NoParentNotify
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, MaximizeBox, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						&amp;OK
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='MathActions.mxy' and @class='Afx:01020000:b:00010003:00000006:012B04E3']//button[@text='&amp;OK']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="8bdf7cb9-cfed-4d90-afeb-361cba8831d2"
+		sx="1507"
+		sy="833"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="1c3ae803-71b0-40e2-a80d-53f3f1a9132e"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="3"
+				prefcap="button"
+				rect="1456,823,103,21"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Finish
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="controlid"
+					type="System.Int32">
+						3165
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						67984
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						1764
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						SNAP-X
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						LeftToRightReading
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						Finish
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='MathActions.mxy' and @class='Afx:01020000:b:00010003:00000006:012B04E3']//button[@text='Finish']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="a9c36b99-6db0-45c5-b322-f57a078dd950"
+		sx="1149"
+		sy="14"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e4526397-d53e-4bd4-b99a-0448a7b0f99c"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="2"
+				prefcap="unknown"
+				rect="379,0,1541,28"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Afx:01020000:20:00010003:01900011:00000000
+					</attribute>
+					<attribute
+					name="controlid"
+					type="System.Int32">
+						94
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						3146848
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						1764
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						SNAP-X
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						LeftToRightReading
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						Snap-X - [MathActions.mxy]
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='Snap-X - [Untitled]']/element[@controlid='94']
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="{LMenu}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="40ae8354-c04a-480c-96db-78d5a979df6c">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="f"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="35df6028-6b58-4ef7-aaaa-713fc8d738b9">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="n"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="f95116f8-a9a3-4744-a815-8cb34b451344">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
+	</recorditems>
+	<repository
+	id="0dbaa491-d070-48f5-be2a-e340c547dbc1"
+	name="MathematicsRepository"
+	relativepath="MathematicsRepository.rxrep"
+	rxversion="7.0">
+		<codegen
+		classname="MathematicsRepository"
+		namespace="Mathematics">
+		</codegen>
+		<rootfolder
+		id="bb702d5b-7f83-4046-b41a-76ccb7de2beb"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

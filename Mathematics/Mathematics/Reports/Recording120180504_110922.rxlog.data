@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1ac2be79890c3180"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="EVMX"
+		host="SNAPDM200"
+		rxversion="7.0.1.0"
+		osversion="Windows 7 Service Pack 1 32bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="5/4/2018 11:09:24"
+		timestampiso="2018-05-04T08:09:24"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.065"
+			timeRelativeToTestModuleStartTime="00:00.065"
+			timeWallClock="11:09:24"
+			time="00:00.065"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.TitleBar' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/element[@controlid='94']"
+				fullname="MathematicsRepository.SnapXUntitled.TitleBar"
+				id="e4526397d53e4bd4b99a0448a7b0f99c"
+				timeout="630000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationMathTwo\Mathematics\Mathematics\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.130"
+			timeRelativeToTestModuleStartTime="00:01.130"
+			timeWallClock="11:09:26"
+			time="00:01.130"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LMenu}'.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationMathTwo\Mathematics\Mathematics\Recording1.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.334"
+			timeRelativeToTestModuleStartTime="00:01.334"
+			timeWallClock="11:09:26"
+			time="00:01.334"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'f'.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationMathTwo\Mathematics\Mathematics\Recording1.cs"
+				codeline="90"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.536"
+			timeRelativeToTestModuleStartTime="00:01.536"
+			timeWallClock="11:09:26"
+			time="00:01.536"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'o'.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationMathTwo\Mathematics\Mathematics\Recording1.cs"
+				codeline="94"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.740"
+			timeRelativeToTestModuleStartTime="00:01.740"
+			timeWallClock="11:09:26"
+			time="00:01.740"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3s.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationMathTwo\Mathematics\Mathematics\Recording1.cs"
+				codeline="98"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.743"
+			timeRelativeToTestModuleStartTime="00:04.743"
+			timeWallClock="11:09:29"
+			time="00:04.743"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'D:\Joro\GIT_Automations\VERSION 3\AutomationMathTwo\Routine\MathActions.mxy'.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationMathTwo\Mathematics\Mathematics\Recording1.cs"
+				codeline="101"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.435"
+			timeRelativeToTestModuleStartTime="00:12.435"
+			timeWallClock="11:09:37"
+			time="00:12.435"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}'.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationMathTwo\Mathematics\Mathematics\Recording1.cs"
+				codeline="105"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.644"
+			timeRelativeToTestModuleStartTime="00:12.644"
+			timeWallClock="11:09:37"
+			time="00:12.644"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.TitleBar' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/element[@controlid='94']"
+				fullname="MathematicsRepository.SnapXUntitled.TitleBar"
+				id="e4526397d53e4bd4b99a0448a7b0f99c"
+				timeout="630000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationMathTwo\Mathematics\Mathematics\Recording1.cs"
+				codeline="109"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.330"
+			timeRelativeToTestModuleStartTime="00:14.330"
+			timeWallClock="11:09:39"
+			time="00:14.330"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LMenu}'.
+			</message>
+			<metainfo
+				itemindex="8"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationMathTwo\Mathematics\Mathematics\Recording1.cs"
+				codeline="113"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.533"
+			timeRelativeToTestModuleStartTime="00:14.533"
+			timeWallClock="11:09:39"
+			time="00:14.533"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'f'.
+			</message>
+			<metainfo
+				itemindex="9"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationMathTwo\Mathematics\Mathematics\Recording1.cs"
+				codeline="117"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.735"
+			timeRelativeToTestModuleStartTime="00:14.735"
+			timeWallClock="11:09:39"
+			time="00:14.735"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'r'.
+			</message>
+			<metainfo
+				itemindex="10"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationMathTwo\Mathematics\Mathematics\Recording1.cs"
+				codeline="121"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.938"
+			timeRelativeToTestModuleStartTime="00:14.938"
+			timeWallClock="11:09:39"
+			time="00:14.938"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}'.
+			</message>
+			<metainfo
+				itemindex="11"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationMathTwo\Mathematics\Mathematics\Recording1.cs"
+				codeline="125"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.140"
+			timeRelativeToTestModuleStartTime="00:15.140"
+			timeWallClock="11:09:40"
+			time="00:15.140"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.Finish' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form//button[@text='Finish' and @enabled='True']"
+				fullname="MathematicsRepository.SnapXUntitled.Finish"
+				id="1c3ae80371b040e2a80d53f3f1a9132e"
+				timeout="630000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationMathTwo\Mathematics\Mathematics\Recording1.cs"
+				codeline="133"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.705"
+			timeRelativeToTestModuleStartTime="00:29.705"
+			timeWallClock="11:09:54"
+			time="00:29.705"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.TitleBar' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/element[@controlid='94']"
+				fullname="MathematicsRepository.SnapXUntitled.TitleBar"
+				id="e4526397d53e4bd4b99a0448a7b0f99c"
+				timeout="630000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationMathTwo\Mathematics\Mathematics\Recording1.cs"
+				codeline="137"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.578"
+			timeRelativeToTestModuleStartTime="00:30.578"
+			timeWallClock="11:09:55"
+			time="00:30.578"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LMenu}'.
+			</message>
+			<metainfo
+				itemindex="15"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationMathTwo\Mathematics\Mathematics\Recording1.cs"
+				codeline="141"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.782"
+			timeRelativeToTestModuleStartTime="00:30.782"
+			timeWallClock="11:09:55"
+			time="00:30.782"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'f'.
+			</message>
+			<metainfo
+				itemindex="16"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationMathTwo\Mathematics\Mathematics\Recording1.cs"
+				codeline="145"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.987"
+			timeRelativeToTestModuleStartTime="00:30.987"
+			timeWallClock="11:09:55"
+			time="00:30.987"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'n'.
+			</message>
+			<metainfo
+				itemindex="17"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationMathTwo\Mathematics\Mathematics\Recording1.cs"
+				codeline="149"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>
