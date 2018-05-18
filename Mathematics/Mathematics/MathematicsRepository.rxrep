@@ -50,6 +50,24 @@ rxversion="7.0">
 			searchtimeout="600000ms">
 				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form//button[@text='Finish' and @enabled='True']
 			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="86972a5c-8b90-4976-9b07-a7b4ff1b579f"
+			name="TextMeasure"
+			refimgid="1e782efc-a6e4-4d5d-9a8b-8a42c57dc849"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//text[@controlid='2394']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="9a08a71a-aceb-47d2-8300-f2f28bfab3c0"
+			name="SwitchToSensor"
+			refimgid="82b70b18-d218-45ae-ab19-56d8bd3ad307"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']/?/?/element[@controlid='59650']/element[@controlid='59648']/toolbar[@controlid='59392']/button[@commandid='40029']
+			</item>
 			<basepath>
 				/form[@title='Snap-X - [Untitled]']
 			</basepath>

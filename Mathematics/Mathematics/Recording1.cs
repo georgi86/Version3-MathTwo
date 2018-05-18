@@ -79,6 +79,30 @@ namespace Mathematics
 
             Init();
 
+            string strBigModeText = "Measure";
+
+            bool bBigMode = true;
+
+            try
+            {
+                Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXUntitled.TextMeasure' at Center.", repo.SnapXUntitled.TextMeasureInfo, new RecordItemIndex(0));
+                repo.SnapXUntitled.TextMeasure.MoveTo();
+                Delay.Milliseconds(200);
+
+                bBigMode = repo.SnapXUntitled.TextMeasure.TextValue.CompareTo(strBigModeText) == 0 && repo.SnapXUntitled.TextMeasure.Visible;
+            }
+
+            catch (Exception ex)
+            {
+
+            } 
+            
+            if (!bBigMode)
+
+                repo.SnapXUntitled.SwitchToSensor.Click();
+                Delay.Milliseconds(200);                    
+           
+
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXUntitled.TitleBar' at Center.", repo.SnapXUntitled.TitleBarInfo, new RecordItemIndex(0));
             repo.SnapXUntitled.TitleBar.Click();
             Thread.Sleep(200);
@@ -94,8 +118,8 @@ namespace Mathematics
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'o'.", new RecordItemIndex(3));
             Keyboard.Press("o");
 
-            Thread.Sleep(3000);            
-            
+            Thread.Sleep(3000);
+
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'D:\\Joro\\GIT_Automations\\VERSION 3\\AutomationMathTwo\\Routine\\MathActions.mxy'.", new RecordItemIndex(5));
             Keyboard.Press("D:\\Joro\\GIT_Automations\\VERSION 3\\AutomationMathTwo\\Routine\\MathActions.mxy");
             Thread.Sleep(100);
@@ -161,8 +185,8 @@ namespace Mathematics
 
         }
 
-#region Image Feature Data
-#endregion
+        #region Image Feature Data
+        #endregion
     }
 #pragma warning restore 0436
 }

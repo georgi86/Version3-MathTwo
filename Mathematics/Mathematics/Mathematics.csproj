@@ -91,7 +91,9 @@
       <UserCode>true</UserCode>
       <id>6461ff42-69f5-4e0a-be67-f5a27f52b583</id>
     </Compile>
-    <Compile Include="UtilityFunctions.cs" />
+    <Compile Include="UtilityFunctions.cs">
+      <id>70b31e0e-13e6-440d-88e5-e4e60f47173a</id>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config">

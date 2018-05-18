@@ -86,8 +86,10 @@ namespace Mathematics
         public partial class SnapXUntitledAppFolder : RepoGenBaseFolder
         {
             RepoItemInfo _titlebarInfo;
-            //RepoItemInfo _buttonokInfo;
+            RepoItemInfo _buttonokInfo;
             RepoItemInfo _finishInfo;
+            RepoItemInfo _textmeasureInfo;
+            RepoItemInfo _switchtosensorInfo;
 
             /// <summary>
             /// Creates a new SnapXUntitled  folder.
@@ -96,8 +98,10 @@ namespace Mathematics
                     base("SnapXUntitled", "/form[@title='Snap-X - [Untitled]']", parentFolder, 30000, null, true, "4adb4bb9-9f89-49fe-adf8-806d61028b9e", "")
             {
                 _titlebarInfo = new RepoItemInfo(this, "TitleBar", "element[@controlid='94']", 600000, null, "e4526397-d53e-4bd4-b99a-0448a7b0f99c");
-                //_buttonokInfo = new RepoItemInfo(this, "ButtonOK", "container[@controlid='59648']/form//button[@text='&OK']", 600000, null, "a6cf9ea9-87f7-4d8e-a044-66466c3c75b6");
+                _buttonokInfo = new RepoItemInfo(this, "ButtonOK", "container[@controlid='59648']/form//button[@text='&OK']", 600000, null, "a6cf9ea9-87f7-4d8e-a044-66466c3c75b6");
                 _finishInfo = new RepoItemInfo(this, "Finish", "container[@controlid='59648']/form//button[@text='Finish' and @enabled='True']", 600000, null, "1c3ae803-71b0-40e2-a80d-53f3f1a9132e");
+                _textmeasureInfo = new RepoItemInfo(this, "TextMeasure", "container[@controlid='59648']/form[@title='Untitled']//text[@controlid='2394']", 30000, null, "86972a5c-8b90-4976-9b07-a7b4ff1b579f");
+                _switchtosensorInfo = new RepoItemInfo(this, "SwitchToSensor", "container[@controlid='59648']/form[@title='Untitled']/?/?/element[@controlid='59650']/element[@controlid='59648']/toolbar[@controlid='59392']/button[@commandid='40029']", 30000, null, "9a08a71a-aceb-47d2-8300-f2f28bfab3c0");
             }
 
             /// <summary>
@@ -151,26 +155,26 @@ namespace Mathematics
             /// <summary>
             /// The ButtonOK item.
             /// </summary>
-            //[RepositoryItem("a6cf9ea9-87f7-4d8e-a044-66466c3c75b6")]
-            //public virtual Ranorex.Button ButtonOK
-            //{
-            //    get
-            //    {
-            //        return _buttonokInfo.CreateAdapter<Ranorex.Button>(true);
-            //    }
-            //}
+            [RepositoryItem("a6cf9ea9-87f7-4d8e-a044-66466c3c75b6")]
+            public virtual Ranorex.Button ButtonOK
+            {
+                get
+                {
+                    return _buttonokInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
 
             /// <summary>
             /// The ButtonOK item info.
             /// </summary>
-            //[RepositoryItemInfo("a6cf9ea9-87f7-4d8e-a044-66466c3c75b6")]
-            //public virtual RepoItemInfo ButtonOKInfo
-            //{
-            //    get
-            //    {
-            //        return _buttonokInfo;
-            //    }
-            //}
+            [RepositoryItemInfo("a6cf9ea9-87f7-4d8e-a044-66466c3c75b6")]
+            public virtual RepoItemInfo ButtonOKInfo
+            {
+                get
+                {
+                    return _buttonokInfo;
+                }
+            }
 
             /// <summary>
             /// The Finish item.
@@ -193,6 +197,54 @@ namespace Mathematics
                 get
                 {
                     return _finishInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TextMeasure item.
+            /// </summary>
+            [RepositoryItem("86972a5c-8b90-4976-9b07-a7b4ff1b579f")]
+            public virtual Ranorex.Text TextMeasure
+            {
+                get
+                {
+                    return _textmeasureInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TextMeasure item info.
+            /// </summary>
+            [RepositoryItemInfo("86972a5c-8b90-4976-9b07-a7b4ff1b579f")]
+            public virtual RepoItemInfo TextMeasureInfo
+            {
+                get
+                {
+                    return _textmeasureInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SwitchToSensor item.
+            /// </summary>
+            [RepositoryItem("9a08a71a-aceb-47d2-8300-f2f28bfab3c0")]
+            public virtual Ranorex.Button SwitchToSensor
+            {
+                get
+                {
+                    return _switchtosensorInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SwitchToSensor item info.
+            /// </summary>
+            [RepositoryItemInfo("9a08a71a-aceb-47d2-8300-f2f28bfab3c0")]
+            public virtual RepoItemInfo SwitchToSensorInfo
+            {
+                get
+                {
+                    return _switchtosensorInfo;
                 }
             }
         }
