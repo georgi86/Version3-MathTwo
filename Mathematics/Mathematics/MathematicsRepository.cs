@@ -90,6 +90,7 @@ namespace Mathematics
             RepoItemInfo _finishInfo;
             RepoItemInfo _textmeasureInfo;
             RepoItemInfo _switchtosensorInfo;
+            RepoItemInfo _buttongoInfo;
 
             /// <summary>
             /// Creates a new SnapXUntitled  folder.
@@ -102,6 +103,7 @@ namespace Mathematics
                 _finishInfo = new RepoItemInfo(this, "Finish", "container[@controlid='59648']/form//button[@text='Finish' and @enabled='True']", 600000, null, "1c3ae803-71b0-40e2-a80d-53f3f1a9132e");
                 _textmeasureInfo = new RepoItemInfo(this, "TextMeasure", "container[@controlid='59648']/form[@title='Untitled']//text[@controlid='2394']", 30000, null, "86972a5c-8b90-4976-9b07-a7b4ff1b579f");
                 _switchtosensorInfo = new RepoItemInfo(this, "SwitchToSensor", "container[@controlid='59648']/form[@title='Untitled']/?/?/element[@controlid='59650']/element[@controlid='59648']/toolbar[@controlid='59392']/button[@commandid='40029']", 30000, null, "9a08a71a-aceb-47d2-8300-f2f28bfab3c0");
+                _buttongoInfo = new RepoItemInfo(this, "ButtonGo", "container[@controlid='59648']/form[@title='Untitled']//element[@controlid='59664']/container[@controlid='59648']/button[@text='Go']", 100000, null, "6963d63d-3dcc-4493-92ac-8da6d4cba747");
             }
 
             /// <summary>
@@ -245,6 +247,27 @@ namespace Mathematics
                 get
                 {
                     return _switchtosensorInfo;
+                }
+            }
+
+            [RepositoryItem("6963d63d-3dcc-4493-92ac-8da6d4cba747")]
+            public virtual Ranorex.Button ButtonGo
+            {
+                get
+                {
+                    return _buttongoInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ButtonGo item info.
+            /// </summary>
+            [RepositoryItemInfo("6963d63d-3dcc-4493-92ac-8da6d4cba747")]
+            public virtual RepoItemInfo ButtonGoInfo
+            {
+                get
+                {
+                    return _buttongoInfo;
                 }
             }
         }
